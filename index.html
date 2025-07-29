@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>🎬 Movie Guessing Game</h1>
+    
+    <p id="blanks">_ _ _ _</p>
+
+    <div class="input-area">
+      <input type="text" id="guessInput" maxlength="1" placeholder="Enter a letter">
+      <button id="guessBtn">Guess</button>
+    </div>
+
+    <p id="message"></p>
+    <p>Lives left: <span id="lives">6</span></p>
+
+    <p>Wins: <span id="wins">0</span> | Losses: <span id="losses">0</span></p>
+
+    <button id="playAgainBtn" class="hidden">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
